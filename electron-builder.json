@@ -1,0 +1,12 @@
+{
+  "appId": "com.fhadlan.resourceMonitor",
+  "files": ["dist-react", "dist-electron"],
+  "icon": "./icon.png",
+  "linux": {
+    "target": "AppImage",
+    "category": "Utility"
+  },
+  "win": {
+    "target": ["portable", "msi"]
+  }
+}
