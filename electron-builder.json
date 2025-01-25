@@ -1,6 +1,7 @@
 {
   "appId": "com.fhadlan.resourceMonitor",
   "files": ["dist-react", "dist-electron"],
+  "extraResources": ["dist-electron/preload.cjs"],
   "icon": "./icon.png",
   "linux": {
     "target": "AppImage",
